@@ -83,5 +83,5 @@ function sendNotification(text) {
 	const notification = new Notification("Microsoft Teams", { body: text });
 	setTimeout(() => {
 		notification.close();
-	}, 10000);
+	}, 3000);
 }
