@@ -31,7 +31,6 @@ async function startCapture(displayMediaOptions) {
 }
 
 document.addEventListener("click", (event) => {
-	event.preventDefault();
 	if (!screenCaptureStarted) {
 		startCapture();
 		screenCaptureStarted = true;
