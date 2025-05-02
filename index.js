@@ -15,6 +15,7 @@ let displayMediaOptions = {
 let screenCaptureStarted = false;
 let notificationPermissionGranted = false;
 let video = document.createElement("video");
+video.autoplay = true;
 let canvas = document.createElement("canvas");
 
 async function startCapture(displayMediaOptions) {
